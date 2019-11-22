@@ -1,0 +1,32 @@
+body {
+	font-family: "CarlitoRegular";
+	text-align: center;
+	color: white;
+}
+
+p {
+	width: 30%;
+	margin: auto;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+div {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#all {
+	background-color: blueviolet;
+	height: 100%;
+	border-top: 20px solid blueviolet;
+	border-left: 50px solid aquamarine;
+	border-right: 50px solid aquamarine;
+	border-bottom: 20px solid blueviolet;
+}
+
+#submit {
+	background: yellowgreen;
+	color: black;
+	margin-top: 10px;
+}

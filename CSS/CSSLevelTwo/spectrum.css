@@ -1,0 +1,32 @@
+h1 {
+	font-family: "CarlitoRegular";
+	text-align: center;
+}
+
+.art {
+	width: 75%;
+	margin: auto;
+	height: 400px;
+}
+
+td {
+	height: 40%;
+	width: 10%;
+	border: 10px solid white
+}
+
+#a {
+	background-color: #131221;
+}
+#b {
+	background-color: #1D1B33;
+}
+#c {
+	background-color: #2D2C3D;
+}
+#d {
+	background-color: #403F4C;
+}
+#e {
+	background-color: #6F68B7 ;
+}

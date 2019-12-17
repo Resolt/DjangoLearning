@@ -13,5 +13,29 @@
 		<p>Here is a picture of django reinhart</p>
 		<img src="{% static 'images/django_reinhardt.jpg' %}" alt="Uh oh, is ded"></img><br/>
 		{{ insert_me }}
+
+		<div class="djangtwo">
+			{% if access_records %}
+				<table>
+					<thead>
+						<th>Site Name</th>
+						<th>Date Accessed</th>
+					</thead>
+					
+					{% for acc in access_records %}
+					<tr>
+						<td>{{ acc.name }}</td>
+						<td>{{ acc.date }}</td>
+					</tr>
+					{% endfor %}
+				</table>
+
+			{% else %}
+
+				<p>NO ACCESS RECORDS FOUND</p>
+
+			{% endif %}
+
+		</div>
 	</body>
 </html>
